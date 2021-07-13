@@ -1,0 +1,190 @@
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Fonts
+
+@font-face
+{
+   font-family: NeueMontreal;
+   src: url('/wp-content/themes/think/fonts/neue-montreal/NeueMontreal-Regular.otf');
+}
+@font-face
+{
+   font-family: NeueMontrealBold;
+   src: url('/wp-content/themes/think/fonts/neue-montreal/NeueMontreal-Bold.otf');
+}
+@font-face
+{
+   font-family: OpenSansLight;
+   src: url('/wp-content/themes/think/fonts/open-sans/OpenSans-Light.ttf');
+}
+
+// All resolution styles
+body {
+   overflow: hidden;
+}
+h1 {
+   font-family: "NeueMontreal";
+   font-size: 68px;
+   font-weight: bold;
+   letter-spacing: 0.42px;
+   line-height: 84px;
+}
+.white {
+   color: #ffffff;
+}
+.black {
+   color: #000;
+}
+.flex {
+   display: flex;
+}
+.items-center {
+   align-items: center;
+}
+p.desc {
+   height: 27px;
+   width: 319px;
+   color: #FFFFFF;
+   font-family: "OpenSansLight";
+   font-size: 18px;
+   letter-spacing: 0;
+   line-height: 27px;
+}
+#banner {
+   height: 100vh;
+   background: url('/wp-content/themes/think/images/homepage/banner.png');
+   background-size: cover;
+}
+.scroll-button {
+   padding-top: 200px;
+}
+/* The sidebar menu */
+.sidebar {
+   height: 100%; /* 100% Full-height */
+   width: 0; /* 0 width - change this with JavaScript */
+   position: fixed; /* Stay in place */
+   z-index: 1; /* Stay on top */
+   top: 0;
+   left: 0;
+   background-color: #111; /* Black*/
+   overflow-x: hidden; /* Disable horizontal scroll */
+   padding-top: 60px; /* Place content 60px from the top */
+   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+/* The sidebar links */
+.sidebar a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-size: 25px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidebar a:hover {
+   color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+   font-size: 20px;
+   cursor: pointer;
+   background-color: #111;
+   color: white;
+   padding: 10px 15px;
+   border: none;
+}
+
+.openbtn:hover {
+   background-color: #444;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+   transition: margin-left .5s; /* If you want a transition effect */
+   padding: 20px;
+}
+
+
+
+
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+
+@media (min-width: 1281px) {
+
+   /* CSS */
+
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+   /* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+   /* CSS */
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+   /* CSS */
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+   /* CSS */
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+   /* CSS */
+
+}
