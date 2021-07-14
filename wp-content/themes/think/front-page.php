@@ -270,6 +270,46 @@
         </div>
     </div>
 </div>
+<!--Partners section-->
+<div id="partners">
+    <div class="container">
+        <h5 class="text-center mb-5">We work with the best</h5>
+        <div class="flex">
+            <div>
+                <img src="wp-content/themes/think/images/partners/mariner.svg" alt="">
+            </div>
+            <div>
+                <img src="wp-content/themes/think/images/partners/montekristo.svg" alt="">
+            </div>
+            <div>
+                <img src="wp-content/themes/think/images/partners/tigne-point.svg" alt="">
+            </div>
+            <div>
+                <img src="wp-content/themes/think/images/partners/methode-electronics.svg" alt="">
+            </div>
+            <div>
+                <img src="wp-content/themes/think/images/partners/ksi-malta.svg" alt="">
+            </div>
+        </div>
+        <div class="flex">
+            <div>
+                <img src="wp-content/themes/think/images/partners/mariner.svg" alt="">
+            </div>
+            <div>
+                <img src="wp-content/themes/think/images/partners/montekristo.svg" alt="">
+            </div>
+            <div>
+                <img src="wp-content/themes/think/images/partners/tigne-point.svg" alt="">
+            </div>
+            <div>
+                <img src="wp-content/themes/think/images/partners/methode-electronics.svg" alt="">
+            </div>
+            <div>
+                <img src="wp-content/themes/think/images/partners/ksi-malta.svg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
 <body>
 
 

@@ -11132,6 +11132,30 @@ p.desc {
   padding: 0 24px 32px 24px;
 }
 
+#partners div.flex div {
+  width: 20%;
+  height: 175px;
+  text-align: center;
+  display: flex;
+  padding: 60.5px 53.5px;
+  vertical-align: middle;
+  border: 1px solid #373A45;
+  border-radius: 4px 0 0 0;
+}
+
+#partners {
+  background: #21232B;
+  padding: 120px 0;
+}
+
+#partners h5, #partners .h5 {
+  color: #FBFBFB;
+  font-family: "NeueMontrealBold";
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  line-height: 33px;
+}
+
 /* The sidebar menu */
 .sidebar {
   height: 100%;
