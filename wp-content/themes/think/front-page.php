@@ -310,6 +310,30 @@
         </div>
     </div>
 </div>
+<footer>
+    <div id="pre-footer">
+        <div class="container text-center">
+            <h3 class="dark d-inline">We’ve got it down to a <img class="ml-2" src="wp-content/themes/think/images/t-dot.svg" alt=""></h3>
+            <div class="row">
+                <div class="text-center mt-5">
+                    <a href="#" class="button-2">Start a project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+
+                </div>
+                <div class="col-md-6">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 <body>
 
 

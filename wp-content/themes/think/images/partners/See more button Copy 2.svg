@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="160px" height="48px" viewBox="0 0 160 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>D0767ADF-59E4-4E16-B4E1-8D067B59B7AF</title>
+    <defs>
+        <linearGradient x1="12.4840084%" y1="47.635%" x2="88.7216409%" y2="52.5646017%" id="linearGradient-1">
+            <stop stop-color="#0986EC" offset="0%"></stop>
+            <stop stop-color="#35A5FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Updated" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage" transform="translate(-640.000000, -6389.000000)">
+            <g id="Group-11" transform="translate(0.000000, 6167.000000)">
+                <g id="See-more-button-Copy-2" transform="translate(641.000000, 223.000000)">
+                    <path d="M6.409713,-2.58960077e-16 L151.590287,2.58960077e-16 C153.819084,-1.50463262e-16 154.627299,0.232064028 155.442114,0.667831759 C156.256929,1.10359949 156.896401,1.74307093 157.332168,2.55788574 C157.767936,3.37270056 158,4.18091615 158,6.409713 L158,39.590287 C158,41.8190838 157.767936,42.6272994 157.332168,43.4421143 C156.896401,44.2569291 156.256929,44.8964005 155.442114,45.3321682 C154.627299,45.767936 153.819084,46 151.590287,46 L6.409713,46 C4.18091615,46 3.37270056,45.767936 2.55788574,45.3321682 C1.74307093,44.8964005 1.10359949,44.2569291 0.667831759,43.4421143 C0.232064028,42.6272994 1.00308841e-16,41.8190838 -1.72640051e-16,39.590287 L1.72640051e-16,6.409713 C-1.00308841e-16,4.18091615 0.232064028,3.37270056 0.667831759,2.55788574 C1.10359949,1.74307093 1.74307093,1.10359949 2.55788574,0.667831759 C3.37270056,0.232064028 4.18091615,1.50463262e-16 6.409713,-2.58960077e-16 Z" id="Rectangle-2" stroke="url(#linearGradient-1)" stroke-width="2"></path>
+                    <text id="Start-a-project" font-family="OpenSans-Semibold, Open Sans" font-size="16" font-weight="500" line-spacing="30" fill="#373A45">
+                        <tspan x="24" y="25">Start a project</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
