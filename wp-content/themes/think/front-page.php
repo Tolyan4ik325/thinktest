@@ -159,14 +159,14 @@
 <!--Recent Projects item-->
 <div id="recent-projects">
     <div class="container">
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-md-6">
                 <h2 class="dark">Take a look at our most
                     recent projects</h2>
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row projects">
+            <div class="col-md-6 mb-5">
                 <div class="item">
                     <img src="wp-content/themes/think/images/lava-rewards-project/01.png" alt="">
                     <h3 class="dark">Lava Rewards</h3>
@@ -176,9 +176,53 @@
                         <li><a href="#">Mobile</a></li>
                         <li><a href="#">Branding</a></li>
                     </ul>
+                    <hr>
                 </div>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6 mb-5">
+                <div class="item">
+                    <img src="wp-content/themes/think/images/lava-rewards-project/01.png" alt="">
+                    <h3 class="dark">Lava Rewards</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <ul>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Branding</a></li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="item">
+                    <img src="wp-content/themes/think/images/lava-rewards-project/01.png" alt="">
+                    <h3 class="dark">Lava Rewards</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <ul>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Branding</a></li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-md-6 mb-5">
+                <div class="item">
+                    <img src="wp-content/themes/think/images/lava-rewards-project/01.png" alt="">
+                    <h3 class="dark">Lava Rewards</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    <ul>
+                        <li><a href="#">Web</a></li>
+                        <li><a href="#">Mobile</a></li>
+                        <li><a href="#">Branding</a></li>
+                    </ul>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center mt-4">
+                <a href="#" class="button-1">See more projects</a>
+            </div>
         </div>
     </div>
 </div>

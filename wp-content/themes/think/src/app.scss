@@ -56,14 +56,11 @@ h2 {
    letter-spacing: 0.57px;
 }
 h3 {
-   height: 96px;
    width: 290px;
-   font-family: "NeueMontreal";
+   font-family: "NeueMontrealBold";
    font-size: 32px;
-   font-weight: bold;
    letter-spacing: 0.45px;
    line-height: 48px;
-   padding-left: 30px;
 }
 .white {
    color: #ffffff;
@@ -128,7 +125,8 @@ p.desc {
 #about div.col-md-4 div.item div.info, #about div.col-md-8 div.item div.info {
    z-index: 1;
    position: relative;
-   padding-bottom: 20px;
+   padding-bottom: 32px;
+   padding-left: 40px;
 }
 
 #about div.col-md-4 div.item div.info a, #about div.col-md-8 div.item div.info a {
@@ -138,7 +136,7 @@ p.desc {
    font-size: 16px;
    letter-spacing: 0;
    line-height: 22px;
-   padding-left: 30px;
+   text-decoration: none;
 }
 #about .services {
    margin-top: 120px;
@@ -150,6 +148,53 @@ p.desc {
 }
 #recent-projects img {
    width: 100%;
+   border-radius: 5px;
+}
+#recent-projects h3 {
+   padding-top: 32px;
+}
+#recent-projects p {
+   color: #5C5E64;
+   font-family: "OpenSansRegular";
+   font-size: 21px;
+   letter-spacing: 0;
+   margin: 4px 0 12px 0;
+   line-height: 31px;
+   padding-right: 50px;
+}
+#recent-projects .item {
+
+}
+#recent-projects .item ul {
+   display: flex;
+   list-style: none;
+   padding-left: 0;
+}
+#recent-projects .item ul a {
+   text-decoration: none;
+   color: #90939D;
+   font-family: "OpenSansRegular";
+   font-size: 16px;
+   letter-spacing: 0;
+   line-height: 22px;
+   margin-right: 4px;
+}
+#recent-projects .item ul li:not(:last-child) a:after {
+   content: ",";
+}
+#recent-projects .projects div.col-md-6.mb-5:first-child .item hr{
+   height: 2px;
+   background: linear-gradient(
+                   127.34deg
+           , #0986EC 0%, #35A5FF 100%);
+   opacity: 1;
+   margin-top: 34px;
+}
+#recent-projects .projects div.col-md-6.mb-5:not(:first-child) .item hr{
+   height: 2px;
+   background: #E1E1E1;
+   opacity: 1;
+   margin-top: 34px;
 }
    /* The sidebar menu */
 .sidebar {
