@@ -226,6 +226,50 @@
         </div>
     </div>
 </div>
+<!--Journal Section-->
+<div id="journal">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <h2 class="dark">Journal</h2>
+                <p class="desc dark mt-4 mb-5">
+                    We like to keep up-to-date with all the latest trends in our field. Follow our blog to find out the things that interest our team.
+                </p>
+            </div>
+        </div>
+        <div class="jouranls row mb-5">
+            <div class="col-md-4">
+                <div class="item">
+                    <img src="wp-content/themes/think/images/journal/image1.png" alt="">
+                    <span class="date">02.08.2018</span>
+                    <h5>Why Your Customers Want You To Go Digital</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                    <img src="wp-content/themes/think/images/journal/image1.png" alt="">
+                    <span class="date">02.08.2018</span>
+                    <h5>Why Your Customers Want You To Go Digital</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="item">
+                    <img src="wp-content/themes/think/images/journal/image1.png" alt="">
+                    <span class="date">02.08.2018</span>
+                    <h5>Why Your Customers Want You To Go Digital</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center mt-4">
+                <a href="#" class="button-1">See more journals</a>
+            </div>
+        </div>
+    </div>
+</div>
 <body>
 
 

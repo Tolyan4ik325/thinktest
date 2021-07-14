@@ -142,7 +142,7 @@ p.desc {
    margin-top: 120px;
 }
 #recent-projects {
-   padding-top: 120px;
+   padding: 120px 0;
    background: linear-gradient(180deg, rgba(245,245,245,0.8) 0%, #F5F5F5 99.99%), url('/wp-content/themes/think/images/homepage/recent-projects.png') no-repeat;
    background-size: contain;
 }
@@ -195,6 +195,49 @@ p.desc {
    background: #E1E1E1;
    opacity: 1;
    margin-top: 34px;
+}
+/* Journal section */
+#journal {
+   padding-bottom: 120px;
+   background: linear-gradient(
+                   180deg
+           , rgba(245, 245, 245, 0.8) 0%, #F5F5F5 99.99%);
+}
+
+
+#journal img {
+   width: 100%;
+   border-top-right-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#journal .item {
+   background: #fff;
+   border-radius: 4px;
+}
+#journal span.date {
+   color: #90939D;
+   font-family: "OpenSansRegular";
+   font-size: 16px;
+   letter-spacing: 0;
+   line-height: 26px;
+   display: block;
+   padding: 32px 24px 0;
+}
+#journal h5 {
+   color: #22242C;
+   font-family: "NeueMontrealBold";
+   font-size: 24px;
+   letter-spacing: 0.6px;
+   line-height: 33px;
+   padding: 12px 24px;
+}
+#journal .item p {
+   color: #5C5E64;
+   font-family: "OpenSansRegular";
+   font-size: 16px;
+   letter-spacing: 0;
+   line-height: 26px;
+   padding: 0 24px 32px 24px;
 }
    /* The sidebar menu */
 .sidebar {
