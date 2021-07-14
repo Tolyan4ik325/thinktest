@@ -11193,6 +11193,31 @@ footer #pre-footer h3 img, footer #pre-footer .h3 img {
   top: -1px;
 }
 
+footer #bottom-footer {
+  padding: 62px 0;
+  background: fff;
+}
+
+footer #bottom-footer ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+footer #bottom-footer ul li:first-child {
+  color: #90939D;
+  font-family: "OpenSansRegular";
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 26px;
+  margin-right: 12px;
+}
+
+footer #bottom-footer ul li a {
+  margin-left: 16px;
+}
+
 /* The sidebar menu */
 .sidebar {
   height: 100%;
