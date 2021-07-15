@@ -3057,20 +3057,17 @@ function within(min, value, max) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
 // src/app.js
+var menuTog = document.querySelector('#menu-toggle');
+var navBar = document.querySelector('nav.navbar'); // menuTog.click(function() {
+//     navBar.addClass('active');
+//     jQuery('#menu-toggle').addClass('position-fixed');
+// })
 
-/* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
-
-
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft = "0";
-}
-
+menuTog.addEventListener('click', function () {
+  menuTog.classList.toggle('active');
+  menuTog.classList.toggle('position-fixed');
+  navBar.classList.toggle('active');
+});
 
 
 /***/ }),

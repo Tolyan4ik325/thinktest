@@ -9,30 +9,55 @@
     <?php wp_head();?>
 
 </head>
-<!--    <div id="mySidebar" class="sidebar">-->
-<!--        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
-<!--        <a href="#">About</a>-->
-<!--        <a href="#">Services</a>-->
-<!--        <a href="#">Clients</a>-->
-<!--        <a href="#">Contact</a>-->
-<!--    </div>-->
-<!---->
-<!--    <div id="main">-->
-<!--        <button class="openbtn" onclick="openNav()">&#9776; Open Sidebar</button>-->
-<!--    </div>-->
-
+<body>
+<div id="menu-toggle" class="menu col-md-6 text-right">
+</div>
+<nav class="navbar">
+    <div class="right-bar">
+        <div class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Sevrices</a></li>
+                <li><a href="">Work</a></li>
+                <li><a href="">Journal</a></li>
+                <li><a href="">Labs</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <ul class="flex">
+            <li>
+                <a href="">
+                    <img src="wp-content/themes/think/images/social-media/FB.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="wp-content/themes/think/images/social-media/IN.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="wp-content/themes/think/images/social-media/TW.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="wp-content/themes/think/images/social-media/BE.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
 <!--Header item-->
 <div id="header">
     <div class="container">
-        <div class="row header">
+        <div class="row header pt-4">
             <div class="logo col-md-6">
                 <img src="wp-content/themes/think/images/think-logo-white.svg" alt="">
             </div>
-            <div class="menu col-md-6">
-                <img src="" alt="">
-            </div>
         </div>
-
     </div>
 </div>
 <!--Banner item-->
@@ -356,7 +381,7 @@
         </div>
     </div>
 </footer>
-<body>
+
 
 
 
