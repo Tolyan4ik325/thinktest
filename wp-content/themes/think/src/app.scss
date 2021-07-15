@@ -71,6 +71,7 @@ h1 {
    font-weight: bold;
    letter-spacing: 0.42px;
    line-height: 84px;
+
 }
 h2 {
    font-family: "NeueMontrealBold";
@@ -99,7 +100,19 @@ h3 {
    align-items: center;
 }
 nav.navbar {
-   display: none;
+   display: flex;
+   padding: 0;
+   position: fixed;
+   top: 0;
+   visibility: hidden;
+   opacity: 0;
+   left: 0%;
+   width: 100%;
+   z-index: 3;
+   height: 100vh;
+   justify-content: flex-end;
+   background: #22242ce9;
+   transition: 0.8s;
 }
 #menu-toggle {
    position: absolute;
@@ -115,21 +128,14 @@ nav.navbar {
    background: url('/wp-content/themes/think/images/menu-active-close.svg') no-repeat;
 }
 nav.navbar.active {
-   transition: 1s;
-   display: flex;
-   padding: 0;
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   z-index: 3;
-   height: 100vh;
-   justify-content: flex-end;
-   background: #22242ce9;
+   opacity: 1;
+   visibility: visible;
 }
+
 nav.navbar div.right-bar {
    background: #22242C;
    opacity: 1;
+   transition: 0.8s;
    height: 100vh;
 }
 nav.navbar div.right-bar .menu ul{

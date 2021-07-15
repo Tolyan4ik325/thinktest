@@ -10981,7 +10981,19 @@ h3, .h3 {
 }
 
 nav.navbar {
-  display: none;
+  display: flex;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  visibility: hidden;
+  opacity: 0;
+  left: 0%;
+  width: 100%;
+  z-index: 3;
+  height: 100vh;
+  justify-content: flex-end;
+  background: #22242ce9;
+  transition: 0.8s;
 }
 
 #menu-toggle {
@@ -11000,22 +11012,14 @@ nav.navbar {
 }
 
 nav.navbar.active {
-  transition: 1s;
-  display: flex;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 3;
-  height: 100vh;
-  justify-content: flex-end;
-  background: #22242ce9;
+  opacity: 1;
+  visibility: visible;
 }
 
 nav.navbar div.right-bar {
   background: #22242C;
   opacity: 1;
+  transition: 0.8s;
   height: 100vh;
 }
 

@@ -3058,16 +3058,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.esm.js");
 // src/app.js
 var menuTog = document.querySelector('#menu-toggle');
-var navBar = document.querySelector('nav.navbar'); // menuTog.click(function() {
-//     navBar.addClass('active');
-//     jQuery('#menu-toggle').addClass('position-fixed');
-// })
+var navBar = document.querySelector('nav.navbar'); // let navRight = document.querySelector('.right-bar');
 
 menuTog.addEventListener('click', function () {
   menuTog.classList.toggle('active');
   menuTog.classList.toggle('position-fixed');
-  navBar.classList.toggle('active');
-});
+  navBar.classList.toggle('active'); // navRight.classList.toggle('active');
+}); // if(menuTog.classList.contains('active')) {
+//     setTimeout(()=> {
+//         navRight.classList.toggle('active');
+//         }, 100
+//     )
+// }
+
 
 
 /***/ }),
