@@ -77,7 +77,7 @@
             <div class="col-md-4"></div>
         </div>
         <div class="scroll-button text-center">
-            <a href="#"><img class="m-auto" src="wp-content/themes/think/images/homepage/scrool.svg" alt=""></a>
+            <a href="#">SCROLL</a>
         </div>
     </div>
 </div>
@@ -93,8 +93,8 @@
                 <a href="#" class="button-1">About Us</a>
             </div>
         </div>
-        <div class="row pt-4 services">
-            <div class="col-md-4">
+        <div class="row services">
+            <div class="col-md-4 mt-4">
                 <div class="item" style="background: url('/wp-content/themes/think/images/services/dev-a-website.png');">
                     <div class="info">
                         <h3 class="white">
@@ -104,7 +104,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
                 <div class="item" style="background: url('/wp-content/themes/think/images/services/dev-a-website.png');">
                     <div class="info">
                         <h3 class="white">
@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
                 <div class="item" style="background: url('/wp-content/themes/think/images/services/dev-mobile-app.png');">
                     <div class="info">
                         <h3 class="white">
@@ -124,9 +124,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
                 <div class="item" style="background: url('/wp-content/themes/think/images/services/dev-a-website.png');">
                     <div class="info">
                         <h3 class="white">
@@ -136,7 +134,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
                 <div class="item" style="background: url('/wp-content/themes/think/images/services/dev-a-website.png');">
                     <div class="info">
                         <h3 class="white">
@@ -146,7 +144,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
                 <div class="item" style="background: url('/wp-content/themes/think/images/services/dev-mobile-app.png');">
                     <div class="info">
                         <h3 class="white">
@@ -156,9 +154,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
                 <div class="item" style="background: url('/wp-content/themes/think/images/services/dev-a-website.png');">
                     <div class="info">
                         <h3 class="white">
@@ -168,7 +164,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 mt-4">
                 <div class="item" style="background: url('/wp-content/themes/think/images/services/our-work.png');">
                     <div class="info">
                         <h3 class="white">
@@ -299,7 +295,7 @@
 <div id="partners">
     <div class="container">
         <h5 class="text-center mb-5">We work with the best</h5>
-        <div class="flex">
+        <div class="flex flex-wrap justify-content-center">
             <div>
                 <img src="wp-content/themes/think/images/partners/mariner.svg" alt="">
             </div>
@@ -315,8 +311,6 @@
             <div>
                 <img src="wp-content/themes/think/images/partners/ksi-malta.svg" alt="">
             </div>
-        </div>
-        <div class="flex">
             <div>
                 <img src="wp-content/themes/think/images/partners/mariner.svg" alt="">
             </div>
@@ -349,7 +343,7 @@
     <div id="bottom-footer">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-left">
+                <div class="col-md-6 text-left xs-text-center sm-text-center">
                     <img src="wp-content/themes/think/images/think-logo-dark.svg" alt="">
                 </div>
                 <div class="col-md-6">
