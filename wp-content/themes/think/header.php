@@ -10,50 +10,67 @@
  */
 
 ?>
+
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <?php wp_head();?>
 
-	<?php wp_head(); ?>
 </head>
+<body>
+<div id="menu-toggle" class="menu col-md-6 text-right">
+</div>
+<nav class="navbar">
+    <div class="right-bar">
+        <div class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Sevrices</a></li>
+                <li><a href="">Work</a></li>
+                <li><a href="">Journal</a></li>
+                <li><a href="">Labs</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <ul class="flex">
+            <li>
+                <a href="">
+                    <img src="wp-content/themes/think/images/social-media/FB.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="wp-content/themes/think/images/social-media/IN.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="wp-content/themes/think/images/social-media/TW.svg" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="wp-content/themes/think/images/social-media/BE.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--Header item-->
+<div id="header">
+    <div class="container">
+        <div class="row header pt-4">
+            <div class="logo col-md-6">
+                <img src="wp-content/themes/think/images/think-logo-white.svg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
 
-<body <?php body_class(); ?>>
-<?php wp_body_open(); ?>
-<div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'think' ); ?></a>
 
-	<header id="masthead" class="site-header">
-		<div class="site-branding">
-			<?php
-			the_custom_logo();
-			if ( is_front_page() && is_home() ) :
-				?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<?php
-			else :
-				?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-				<?php
-			endif;
-			$think_description = get_bloginfo( 'description', 'display' );
-			if ( $think_description || is_customize_preview() ) :
-				?>
-				<p class="site-description"><?php echo $think_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></p>
-			<?php endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'think' ); ?></button>
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'menu-1',
-					'menu_id'        => 'primary-menu',
-				)
-			);
-			?>
-		</nav><!-- #site-navigation -->
-	</header><!-- #masthead -->

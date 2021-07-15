@@ -174,3 +174,25 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+// Register projects custom post type
+
+/*Register WordPress  Gutenberg CPT */
+function projects_post_type() {
+    register_post_type( 'projects',
+        // WordPress CPT Options Start
+        array(
+            'labels' => array(
+                'name' => __( 'Projects' ),
+                'singular_name' => __( 'Project' )
+            ),
+            'show_in_rest' => true,
+            'supports' => array('editor'),
+            'has_archive' => true,
+            'public' => true,
+            'rewrite' => array('slug' => 'projects'),
+
+        )
+    );
+}
+
+add_action( 'init', 'projects_post_type' );

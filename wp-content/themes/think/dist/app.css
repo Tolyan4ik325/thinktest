@@ -11219,6 +11219,12 @@ div.scroll-button.text-center a {
   border-radius: 4px;
 }
 
+#journal .item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
 #journal span.date {
   color: #90939D;
   font-family: "OpenSansRegular";
