@@ -43,7 +43,7 @@ $previous_post = get_previous_post();
     <?php if($next_post !== '') { ?>
     <div class="next-post" style="background: url('<?= get_the_post_thumbnail_url($next_post->ID);?>');">
         <div class="info">
-            <h4 class="text-center white">Next Post</h4>
+            <h4 class="text-center white">Next Project</h4>
             <a rel="next" href="/<?=$next_post->post_name;?>" title="<?=$next_post->post_title;?>" class=" ">
                 <h3 class="white text-center"><?= $next_post->post_title; ?></h3>
             </a>
@@ -54,7 +54,7 @@ $previous_post = get_previous_post();
         ?>
         <div class="next-post" style="background: url('<?= get_the_post_thumbnail_url($previous_post->ID);?>');">
             <div class="info">
-                <h4 class="text-center white">Previous Post</h4>
+                <h4 class="text-center white">Previous Project</h4>
                 <a rel="next" href="/<?=$previous_post->post_name;?>" title="<?=$previous_post->post_title;?>" class=" ">
                     <h3 class="white text-center"><?= $previous_post->post_title; ?></h3>
                 </a>

@@ -10981,6 +10981,98 @@ div.next-post div.info {
   z-index: 2;
 }
 
+#post-banner {
+  margin-top: -49px;
+  height: 60vh;
+  background-size: cover !important;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% !important;
+  overflow: hidden;
+}
+
+main#posts {
+  padding: 120px 0;
+}
+
+main#posts img {
+  height: auto;
+}
+
+main#posts .col-md-8, main#posts .col-md-4 {
+  padding: 0 50px;
+}
+
+main#posts p.post-meta {
+  color: #90939D;
+  font-family: "OpenSansRegular";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  margin: 16px 0 40px 0;
+}
+
+main#posts .sidebar h5, main#posts .sidebar .h5 {
+  color: #90939D;
+  font-family: "OpenSansRegular";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+main#posts .sidebar .widget {
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 32px 48px 0 rgba(0, 0, 0, 0.06);
+}
+
+main#posts .sidebar .widget img {
+  width: 100%;
+}
+
+main#posts .sidebar .widget div.info {
+  padding: 32px 24px;
+}
+
+main#posts .sidebar .widget div.info span.date {
+  color: #90939D;
+  font-family: "OpenSansRegular";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 26px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+main#posts .sidebar .widget div.info h3, main#posts .sidebar .widget div.info .h3 {
+  color: #22242C;
+  font-family: "NeueMontrealBold";
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  line-height: 33px;
+}
+
+main#posts p {
+  color: #5C5E64;
+  font-family: "OpenSansRegular";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+
+main#posts h5, main#posts .h5 {
+  color: #22242C;
+  font-family: "NeueMontreal";
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+}
+
+main#posts .col-md-8 a {
+  text-decoration: none;
+  color: #0986EC;
+}
+
 @font-face {
   font-family: NeueMontreal;
   src: url("/wp-content/themes/think/fonts/neue-montreal/NeueMontreal-Regular.otf");
@@ -11417,73 +11509,6 @@ footer #bottom-footer ul li:first-child {
 
 footer #bottom-footer ul li a {
   margin-left: 16px;
-}
-
-/* The sidebar menu */
-.sidebar {
-  height: 100%;
-  /* 100% Full-height */
-  width: 0;
-  /* 0 width - change this with JavaScript */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Stay on top */
-  top: 0;
-  left: 0;
-  background-color: #111;
-  /* Black*/
-  overflow-x: hidden;
-  /* Disable horizontal scroll */
-  padding-top: 60px;
-  /* Place content 60px from the top */
-  transition: 0.5s;
-  /* 0.5 second transition effect to slide in the sidebar */
-}
-
-/* The sidebar links */
-.sidebar a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidebar a:hover {
-  color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) */
-.sidebar .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-
-/* The button used to open the sidebar */
-.openbtn {
-  font-size: 20px;
-  cursor: pointer;
-  background-color: #111;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: #444;
-}
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-  transition: margin-left 0.5s;
-  /* If you want a transition effect */
-  padding: 20px;
 }
 
 /*

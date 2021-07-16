@@ -1,0 +1,82 @@
+// Banner
+#post-banner {
+  margin-top: -49px;
+  height: 60vh;
+  background-size: cover !important;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% !important;
+  overflow: hidden;
+}
+
+// Content
+
+main#posts {
+  padding: 120px 0;
+}
+main#posts img{
+  height: auto;
+}
+main#posts .col-md-8, main#posts .col-md-4 {
+  padding: 0 50px;
+}
+main#posts p.post-meta {
+  color: #90939D;
+  font-family: "OpenSansRegular";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+  margin: 16px 0 40px 0;
+}
+main#posts .sidebar h5 {
+  color: #90939D;
+  font-family: "OpenSansRegular";
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+main#posts .sidebar .widget{
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 32px 48px 0 rgb(0 0 0 / 6%);
+}
+main#posts .sidebar .widget img {
+  width: 100%;
+}
+main#posts .sidebar .widget div.info {
+  padding: 32px 24px;
+}
+main#posts .sidebar .widget div.info span.date {
+  color: #90939D;
+  font-family: "OpenSansRegular";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 26px;
+  display: block;
+  margin-bottom: 12px;
+}
+main#posts .sidebar .widget div.info h3 {
+  color: #22242C;
+  font-family: "NeueMontrealBold";
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  line-height: 33px;
+}
+main#posts p {
+  color: #5C5E64;
+  font-family: "OpenSansRegular";
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 26px;
+}
+main#posts h5 {
+  color: #22242C;
+  font-family: "NeueMontreal";
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+}
+main#posts .col-md-8 a {
+  text-decoration: none;
+  color: #0986EC;
+}
