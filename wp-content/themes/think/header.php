@@ -22,7 +22,7 @@
 
 </head>
 <body>
-<div id="menu-toggle" class="menu col-md-6 text-right">
+<div id="menu-toggle" class="menu col-md-6 text-right" <?php if(is_admin_bar_showing()) ?> style="top: 62px" <?php ?>>
 </div>
 <nav class="navbar">
     <div class="right-bar">
@@ -41,22 +41,22 @@
         <ul class="flex">
             <li>
                 <a href="">
-                    <img src="wp-content/themes/think/images/social-media/FB.svg" alt="">
+                    <img src="/wp-content/themes/think/images/social-media/FB.svg" alt="">
                 </a>
             </li>
             <li>
                 <a href="">
-                    <img src="wp-content/themes/think/images/social-media/IN.svg" alt="">
+                    <img src="/wp-content/themes/think/images/social-media/IN.svg" alt="">
                 </a>
             </li>
             <li>
                 <a href="">
-                    <img src="wp-content/themes/think/images/social-media/TW.svg" alt="">
+                    <img src="/wp-content/themes/think/images/social-media/TW.svg" alt="">
                 </a>
             </li>
             <li>
                 <a href="">
-                    <img src="wp-content/themes/think/images/social-media/BE.svg" alt="">
+                    <img src="/wp-content/themes/think/images/social-media/BE.svg" alt="">
                 </a>
             </li>
         </ul>
@@ -67,7 +67,7 @@
     <div class="container">
         <div class="row header pt-4">
             <div class="logo col-md-6">
-                <img src="wp-content/themes/think/images/think-logo-white.svg" alt="">
+                <img src="/wp-content/themes/think/images/think-logo-white.svg" alt="">
             </div>
         </div>
     </div>

@@ -130,27 +130,28 @@
         </div>
         <div class="row projects">
             <?php
-                $posts = get_posts( array(
+                $projects = get_posts( array(
                     'numberposts' => 4,
                     'post_type'   => 'projects',
                     'suppress_filters' => true,
                 ) );
-                foreach( $posts as $post ){
-                    setup_postdata($post);
+                foreach( $projects as $project ){
+                    setup_postdata($project);
                     ?>
 
                         <div class="col-md-6 mb-5">
                                 <div class="item">
-                                    <img src="<?=get_the_post_thumbnail_url();?>" alt="">
-                                    <a href="/<?=$post->post_name;?>">
+                                    <div class="image-block" style="background-image: url('<?=get_the_post_thumbnail_url($project->ID);?>')">
+                                    </div>
+                                    <a href="/<?=$project->post_name;?>">
                                         <h3 class="dark">
-                                            <?=$post->post_title;?>
+                                            <?=$project->post_title;?>
                                         </h3>
                                     </a>
-                                    <p><?= $post->post_excerpt;?></p>
+                                    <p><?= $project->post_excerpt;?></p>
                                     <ul>
                                         <?php
-                                        $terms = get_the_terms( $post->ID, 'project-type' );
+                                        $terms = get_the_terms( $project->ID, 'project-type' );
                                         foreach($terms as $term) {
                                             echo '<li><a href="../archives/project-type/'.$term->slug.'">'.$term->name.'</a></li>';
                                         }
@@ -182,30 +183,25 @@
             </div>
         </div>
         <div class="jouranls row mb-5">
-            <div class="col-md-4">
-                <div class="item">
-                    <img src="wp-content/themes/think/images/journal/image1.png" alt="">
-                    <span class="date">02.08.2018</span>
-                    <h5>Why Your Customers Want You To Go Digital</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <?php
+            $posts = get_posts( array(
+                'numberposts' => 3,
+                'post_type'   => 'post',
+                'suppress_filters' => true,
+            ) );
+            foreach( $posts as $post ){
+            setup_postdata($post);
+            ?>
+                <div class="col-md-4">
+                    <div class="item">
+                        <div class="image-block" style="background-image: url('<?=get_the_post_thumbnail_url($post->ID);?>">
+                        </div>
+                        <span class="date">02.08.2018</span>
+                        <h5><?=$post->post_title;?></h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="item">
-                    <img src="wp-content/themes/think/images/journal/image1.png" alt="">
-                    <span class="date">02.08.2018</span>
-                    <h5>Why Your Customers Want You To Go Digital</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="item">
-                    <img src="wp-content/themes/think/images/journal/image1.png" alt="">
-                    <span class="date">02.08.2018</span>
-                    <h5>Why Your Customers Want You To Go Digital</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                </div>
-            </div>
+            <?php } ?>
         </div>
         <div class="row">
             <div class="text-center mt-4">

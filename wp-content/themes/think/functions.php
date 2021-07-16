@@ -233,3 +233,17 @@ function create_project_taxonomies()
         'rewrite' => array( 'slug' => 'project-type' ),
     ));
 }
+
+
+
+
+
+// Register and load the widget
+function wpb_load_widget() {
+    register_widget( 'wpb_widget' );
+}
+
+add_action( 'widgets_init', 'wpb_load_widget' );
+
+require('widgets/next-post-widget.php');
+

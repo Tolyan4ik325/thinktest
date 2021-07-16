@@ -32,14 +32,8 @@ $previous_post = get_previous_post();
                 </div>
                 <div class="col-md-4 sidebar">
                     <h5>Continue reading</h5>
-                    <div class="widget">
-                        <img src="" alt="">
-                        <div class="info">
-                            <span class="date">02.08.2018</span>
-                            <h3>Why Your Customers Want You To Go Digital</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
-                        </div>
-                    </div>
+
+                    <?php get_sidebar();?>
                 </div>
             </div>
         </div>
