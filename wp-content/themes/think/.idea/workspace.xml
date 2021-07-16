@@ -22,24 +22,8 @@
     <list default="true" id="c4dcbdbd-655a-42a3-a613-0d3bb15069d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/single-projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/single-projects.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03-1024x576.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03-1536x864.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03-300x169.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03-768x432.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-1024x576.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-150x150.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-1536x864.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-2048x1152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-300x169.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-768x432.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1626185672986</updated>
       <workItem from="1626185674110" duration="79020000" />
-      <workItem from="1626428362785" duration="3618000" />
+      <workItem from="1626428362785" duration="6547000" />
     </task>
     <servers />
   </component>
