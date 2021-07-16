@@ -1,6 +1,6 @@
 
 @import "node_modules/bootstrap/scss/bootstrap";
-
+@import "src/projects.scss";
 // Fonts
 
 @font-face
@@ -275,6 +275,9 @@ div.scroll-button.text-center a{
    display: flex;
    list-style: none;
    padding-left: 0;
+}
+#recent-projects .item a {
+   text-decoration: none;
 }
 #recent-projects .item ul a {
    text-decoration: none;

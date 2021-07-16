@@ -20,32 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4dcbdbd-655a-42a3-a613-0d3bb15069d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/single-projects.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/_inc/akismet.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/akismet/_inc/akismet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/akismet.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/akismet/akismet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/class.akismet-widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/akismet/class.akismet-widget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/class.akismet.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/akismet/class.akismet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/akismet/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../plugins/akismet/views/notice.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../plugins/akismet/views/notice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/services/Digital Business Transformation.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/services/digital-business.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/services/Increase Online Traffic.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/services/increase-online-traffic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/services/Refine your Digital Brand.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/services/digital-brand.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/services/Start Rewarding your Customers.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/services/sryc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/services/Start Selling Online.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/services/start-selling-online.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-projects.php" beforeDir="false" afterPath="$PROJECT_DIR$/single-projects.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03-1024x576.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03-150x150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03-1536x864.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03-300x169.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03-768x432.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-1024x576.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-150x150.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-1536x864.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-2048x1152.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-300x169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa-768x432.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../uploads/2021/07/BlTeCa.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -73,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626185672986</updated>
-      <workItem from="1626185674110" duration="68073000" />
+      <workItem from="1626185674110" duration="79020000" />
+      <workItem from="1626428362785" duration="3618000" />
     </task>
     <servers />
   </component>
@@ -90,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1626188178379">
@@ -104,17 +107,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1626188470425" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1626216334627">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1626391469559">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1626216334627" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1626391469559" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/dist/app.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

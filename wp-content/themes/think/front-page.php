@@ -129,58 +129,39 @@
             </div>
         </div>
         <div class="row projects">
-            <div class="col-md-6 mb-5">
-                <div class="item">
-                    <img src="wp-content/themes/think/images/lava-rewards-project/01.png" alt="">
-                    <h3 class="dark">Lava Rewards</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                    <ul>
-                        <li><a href="#">Web</a></li>
-                        <li><a href="#">Mobile</a></li>
-                        <li><a href="#">Branding</a></li>
-                    </ul>
-                    <hr>
-                </div>
-            </div>
-            <div class="col-md-6 mb-5">
-                <div class="item">
-                    <img src="wp-content/themes/think/images/lava-rewards-project/01.png" alt="">
-                    <h3 class="dark">Lava Rewards</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                    <ul>
-                        <li><a href="#">Web</a></li>
-                        <li><a href="#">Mobile</a></li>
-                        <li><a href="#">Branding</a></li>
-                    </ul>
-                    <hr>
-                </div>
-            </div>
-            <div class="col-md-6 mb-5">
-                <div class="item">
-                    <img src="wp-content/themes/think/images/lava-rewards-project/01.png" alt="">
-                    <h3 class="dark">Lava Rewards</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                    <ul>
-                        <li><a href="#">Web</a></li>
-                        <li><a href="#">Mobile</a></li>
-                        <li><a href="#">Branding</a></li>
-                    </ul>
-                    <hr>
-                </div>
-            </div>
-            <div class="col-md-6 mb-5">
-                <div class="item">
-                    <img src="wp-content/themes/think/images/lava-rewards-project/01.png" alt="">
-                    <h3 class="dark">Lava Rewards</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-                    <ul>
-                        <li><a href="#">Web</a></li>
-                        <li><a href="#">Mobile</a></li>
-                        <li><a href="#">Branding</a></li>
-                    </ul>
-                    <hr>
-                </div>
-            </div>
+            <?php
+                $posts = get_posts( array(
+                    'numberposts' => 4,
+                    'post_type'   => 'projects',
+                    'suppress_filters' => true,
+                ) );
+                foreach( $posts as $post ){
+                    setup_postdata($post);
+                    ?>
+
+                        <div class="col-md-6 mb-5">
+                                <div class="item">
+                                    <img src="<?=get_the_post_thumbnail_url();?>" alt="">
+                                    <a href="/<?=$post->post_name;?>">
+                                        <h3 class="dark">
+                                            <?=$post->post_title;?>
+                                        </h3>
+                                    </a>
+                                    <p><?= $post->post_excerpt;?></p>
+                                    <ul>
+                                        <?php
+                                        $terms = get_the_terms( $post->ID, 'project-type' );
+                                        foreach($terms as $term) {
+                                            echo '<li><a href="../archives/project-type/'.$term->slug.'">'.$term->name.'</a></li>';
+                                        }
+                                        ?>
+                                    </ul>
+                                    <hr>
+                                </div>
+
+                        </div>
+
+                <?php } ?>
         </div>
         <div class="row">
             <div class="text-center mt-4">

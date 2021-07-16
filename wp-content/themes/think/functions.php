@@ -176,7 +176,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 // Register projects custom post type
 
-/*Register WordPress  Gutenberg CPT */
 function projects_post_type() {
     register_post_type( 'projects',
         // WordPress CPT Options Start
@@ -185,14 +184,52 @@ function projects_post_type() {
                 'name' => __( 'Projects' ),
                 'singular_name' => __( 'Project' )
             ),
-            'show_in_rest' => true,
-            'supports' => array('editor'),
             'has_archive' => true,
             'public' => true,
             'rewrite' => array('slug' => 'projects'),
+            'show_in_rest' => true,
+            'supports' => array('title', 'editor', 'thumbnail', 'categories', 'excerpt'),
+            'taxonomies' => array('project-type'),
+            'show_ui'             => true,
+            'show_in_menu'        => true,
+            'show_in_nav_menus'   => true,
+            'show_in_admin_bar'   => true,
 
         )
     );
 }
 
 add_action( 'init', 'projects_post_type' );
+
+// Add new taxonomy, make it hierarchical (like categories)
+
+add_action( 'init', 'create_project_taxonomies', 0 );
+
+function create_project_taxonomies()
+{
+
+    $labels = array(
+        'name' => _x( 'Project type', 'taxonomy general name' ),
+        'singular_name' => _x( 'Project type', 'taxonomy singular name' ),
+        'search_items' =>  __( 'Search Project type' ),
+        'popular_items' => __( 'Popular Project type' ),
+        'all_items' => __( 'All Project types' ),
+        'parent_item' => __( 'Parent Project type' ),
+        'parent_item_colon' => __( 'Parent Project type:' ),
+        'edit_item' => __( 'Edit Project type' ),
+        'update_item' => __( 'Update Project type' ),
+        'add_new_item' => __( 'Add New Project type' ),
+        'new_item_name' => __( 'New Recording Project type' ),
+        'menu_name' => __( 'Project type' ),
+    );
+    register_taxonomy('project-type',array('projects'), array(
+        'hierarchical' => true,
+        'labels' => $labels,
+        'show_ui' => true,
+        'show_in_rest' => true,
+        'show_in_nav_menus'          => true,
+        'show_admin_column' => true,
+        'query_var' => true,
+        'rewrite' => array( 'slug' => 'project-type' ),
+    ));
+}

@@ -15,7 +15,7 @@
 <footer>
     <div id="pre-footer">
         <div class="container text-center">
-            <h3 class="dark d-inline">We’ve got it down to a <img class="ml-2" src="wp-content/themes/think/images/t-dot.svg" alt=""></h3>
+            <h3 class="dark d-inline">We’ve got it down to a <img class="ml-2" src="/wp-content/themes/think/images/t-dot.svg" alt=""></h3>
             <div class="row">
                 <div class="text-center mt-5">
                     <a href="#" class="button-2">Start a project</a>

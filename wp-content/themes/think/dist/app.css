@@ -10884,6 +10884,65 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#project-banner {
+  margin-top: -49px;
+  height: 100vh;
+  background-size: cover !important;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: 50% !important;
+  overflow: hidden;
+}
+
+main#projects .row {
+  margin-top: 120px;
+}
+
+main#projects img {
+  height: auto;
+}
+
+main#projects p {
+  color: #5C5E64;
+  font-family: "OpenSansRegular";
+  font-size: 16px;
+  letter-spacing: 0;
+  padding: 0px 50px;
+  line-height: 26px;
+}
+
+main#projects h3, main#projects .h3 {
+  padding: 0 54px;
+}
+
+main#projects h5, main#projects .h5 {
+  color: #22242C;
+  font-family: "NeueMontreal";
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  margin-bottom: 24px;
+}
+
+main#projects ul.project-type {
+  display: flex;
+  padding: 0 50px;
+  list-style: none;
+}
+
+main#projects ul.project-type a {
+  text-decoration: none;
+  color: #22242C;
+  font-family: "NeueMontreal";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-right: 4px;
+}
+
+main#projects ul.project-type li:not(:last-child) a:after {
+  content: ",";
+}
+
 @font-face {
   font-family: NeueMontreal;
   src: url("/wp-content/themes/think/fonts/neue-montreal/NeueMontreal-Regular.otf");
@@ -11172,6 +11231,10 @@ div.scroll-button.text-center a {
   display: flex;
   list-style: none;
   padding-left: 0;
+}
+
+#recent-projects .item a {
+  text-decoration: none;
 }
 
 #recent-projects .item ul a {
