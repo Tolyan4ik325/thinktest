@@ -24,7 +24,7 @@ $previous_post = get_previous_post();
                 <div class="col-md-8">
                     <h3><?=the_title();?></h3>
                     <p class="post-meta">
-                        Beppe De Gabriele  |  09.04.2020
+                        <?php the_author_meta('display_name', 1);?> |  <?= get_the_date('d.m.Y'); ?>
                     </p>
                     <?php
                         the_content();

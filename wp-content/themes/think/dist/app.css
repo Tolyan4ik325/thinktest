@@ -10939,6 +10939,11 @@ main#projects ul.project-type a {
   margin-right: 4px;
 }
 
+main#projects ul.project-type a:hover {
+  color: #35A5FF;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 main#projects ul.project-type li:not(:last-child) a:after {
   content: ",";
 }
@@ -11074,6 +11079,11 @@ main#posts .col-md-8 a {
   color: #0986EC;
 }
 
+main#posts a:hover, main#posts .sidebar .widget div.info a:hover h3, main#posts .sidebar .widget div.info a:hover .h3 {
+  color: #35A5FF;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 main#posts .sidebar .image-block {
   height: 278px;
   width: 100%;
@@ -11112,10 +11122,19 @@ main#posts .sidebar a {
 a.button-1 {
   color: #fff;
   padding: 12px 24px;
+  position: relative;
   text-decoration: none;
   font-family: "OpenSansSemiBold";
   background: linear-gradient(127.34deg, #0986EC 0%, #35A5FF 100%);
   border-radius: 5px;
+}
+
+a.button-1:hover {
+  color: #373A45;
+  font-family: "OpenSansSemiBold";
+  background: #f6f6f6;
+  border: 2px solid #35A5FF;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 a.button-2 {
@@ -11138,6 +11157,12 @@ a.button-2:before {
   background: linear-gradient(127.34deg, #0986EC 0%, #35A5FF 100%);
   border-radius: 8px;
   z-index: -1;
+}
+
+a.button-2:hover {
+  color: #fff;
+  background: linear-gradient(127.34deg, #008dff 0%, #36c0ff 100%);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 h1, .h1 {
@@ -11275,6 +11300,21 @@ p.desc {
   overflow: hidden;
 }
 
+#banner span.line-through {
+  position: relative;
+}
+
+#banner span.line-through:after {
+  content: "";
+  display: block;
+  width: 105%;
+  position: absolute;
+  top: 43px;
+  height: 9px;
+  left: -7px;
+  background: linear-gradient(90deg, #FF1570 0.01%, #FF3A7D 100%);
+}
+
 div.scroll-button.text-center a {
   color: #FFFFFF;
   font-family: "NeueMontrealBold";
@@ -11363,6 +11403,11 @@ div.scroll-button.text-center a {
   padding-top: 32px;
 }
 
+#recent-projects a:hover h3, #recent-projects a:hover .h3 {
+  color: #35A5FF;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 #recent-projects p {
   color: #5C5E64;
   font-family: "OpenSansRegular";
@@ -11391,6 +11436,11 @@ div.scroll-button.text-center a {
   letter-spacing: 0;
   line-height: 22px;
   margin-right: 4px;
+}
+
+#recent-projects .item ul a:hover {
+  color: #35A5FF;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 #recent-projects .item ul li:not(:last-child) a:after {
@@ -11463,6 +11513,11 @@ div.scroll-button.text-center a {
   letter-spacing: 0.6px;
   line-height: 33px;
   padding: 12px 24px;
+}
+
+#journal a:hover h5, #journal a:hover .h5 {
+  color: #35A5FF;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 #journal .item a {
@@ -11541,6 +11596,11 @@ footer #bottom-footer ul li:first-child {
 
 footer #bottom-footer ul li a {
   margin-left: 16px;
+}
+
+footer #bottom-footer ul li a:hover img {
+  filter: invert(47%) sepia(99%) saturate(1085%) hue-rotate(186deg) brightness(102%) contrast(103%);
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 /*
@@ -11648,12 +11708,24 @@ footer #bottom-footer ul li a {
     margin-top: 20px;
     justify-content: center;
   }
+
+  #banner span.line-through:after {
+    top: 30px;
+    height: 6px;
+    left: -5px;
+  }
 }
 /*
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
 */
 @media (min-width: 320px) and (max-width: 480px) {
+  #banner span.line-through:after {
+    top: 30px;
+    height: 6px;
+    left: -5px;
+  }
+
   .xs-text-center {
     text-align: center;
   }

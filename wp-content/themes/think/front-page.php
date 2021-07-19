@@ -9,7 +9,7 @@
             <div class="col-md-8">
                 <h1 class="white">
                     We Build<br>
-                    Products<br>
+                    <span class="line-through">Products</span><br>
                     Relationships
                 </h1>
                 <p class="desc white mt-4">

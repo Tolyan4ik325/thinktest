@@ -43,10 +43,18 @@ body {
 a.button-1 {
    color: #fff;
    padding: 12px 24px;
+   position: relative;
    text-decoration: none;
    font-family: "OpenSansSemiBold";
    background: linear-gradient(127.34deg, #0986EC 0%, #35A5FF 100%);
    border-radius: 5px;
+}
+a.button-1:hover {
+   color: #373A45;
+   font-family: "OpenSansSemiBold";
+   background: #f6f6f6;
+   border: 2px solid #35A5FF;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 a.button-2{
    position: relative;
@@ -67,6 +75,13 @@ a.button-2:before {
    background: linear-gradient(127.34deg, #0986EC 0%, #35A5FF 100%);
    border-radius: 8px;
    z-index: -1;
+}
+a.button-2:hover {
+   color: #fff;
+   background: linear-gradient(
+                   127.34deg
+           ,#008dff 0%,#36c0ff 100%);
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 h1 {
    font-family: "NeueMontrealBold";
@@ -188,6 +203,21 @@ p.desc {
    position: relative;
    overflow: hidden;
 }
+#banner span.line-through {
+   position: relative;
+}
+#banner span.line-through:after {
+   content: '';
+   display: block;
+   width: 105%;
+   position: absolute;
+   top: 43px;
+   height: 9px;
+   left: -7px;
+   background: linear-gradient(
+                   90deg
+           , #FF1570 0.01%, #FF3A7D 100%);
+}
 div.scroll-button.text-center a{
    color: #FFFFFF;
    font-family: "NeueMontrealBold";
@@ -266,6 +296,10 @@ div.scroll-button.text-center a{
 #recent-projects h3 {
    padding-top: 32px;
 }
+#recent-projects a:hover h3 {
+   color: #35A5FF;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 #recent-projects p {
    color: #5C5E64;
    font-family: "OpenSansRegular";
@@ -294,6 +328,10 @@ div.scroll-button.text-center a{
    letter-spacing: 0;
    line-height: 22px;
    margin-right: 4px;
+}
+#recent-projects .item ul a:hover {
+   color: #35A5FF;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 #recent-projects .item ul li:not(:last-child) a:after {
    content: ",";
@@ -363,6 +401,10 @@ div.scroll-button.text-center a{
    line-height: 33px;
    padding: 12px 24px;
 }
+#journal a:hover h5 {
+   color: #35A5FF;
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 #journal .item a {
    text-decoration: none;
 }
@@ -429,7 +471,10 @@ footer #bottom-footer ul li:first-child {
 footer #bottom-footer ul li a {
    margin-left: 16px;
 }
-
+footer #bottom-footer ul li a:hover img{
+   filter: invert(47%) sepia(99%) saturate(1085%) hue-rotate(186deg) brightness(102%) contrast(103%);
+   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 
 /*
   ##Device = Desktops
@@ -546,6 +591,11 @@ footer #bottom-footer ul li a {
       margin-top: 20px;
       justify-content: center;
    }
+   #banner span.line-through:after {
+      top: 30px;
+      height: 6px;
+      left: -5px;
+   }
 }
 
 /*
@@ -554,6 +604,11 @@ footer #bottom-footer ul li a {
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
+   #banner span.line-through:after {
+      top: 30px;
+      height: 6px;
+      left: -5px;
+   }
    .xs-text-center {
       text-align: center;
    }

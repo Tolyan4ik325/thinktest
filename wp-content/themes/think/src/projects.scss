@@ -47,6 +47,10 @@ main#projects ul.project-type a {
   letter-spacing: 0.5px;
   margin-right: 4px;
 }
+main#projects ul.project-type a:hover {
+  color: #35A5FF;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 main#projects ul.project-type li:not(:last-child) a:after {
   content: ",";
 }

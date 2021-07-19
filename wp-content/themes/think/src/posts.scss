@@ -81,6 +81,10 @@ main#posts .col-md-8 a {
   text-decoration: none;
   color: #0986EC;
 }
+main#posts a:hover, main#posts .sidebar .widget div.info a:hover h3{
+  color: #35A5FF;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
 main#posts .sidebar .image-block{
   height: 278px;
   width: 100%;

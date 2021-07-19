@@ -27,29 +27,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-left xs-text-center sm-text-center">
-                    <img src="wp-content/themes/think/images/think-logo-dark.svg" alt="">
+                    <img src="/wp-content/themes/think/images/think-logo-dark.svg" alt="">
                 </div>
                 <div class="col-md-6">
                     <ul class="flex">
                         <li>© 2018 Think</li>
                         <li>
                             <a href="">
-                                <img src="wp-content/themes/think/images/social-media/FB.svg" alt="">
+                                <img src="/wp-content/themes/think/images/social-media/FB.svg" alt="">
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="wp-content/themes/think/images/social-media/IN.svg" alt="">
+                                <img src="/wp-content/themes/think/images/social-media/IN.svg" alt="">
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="wp-content/themes/think/images/social-media/TW.svg" alt="">
+                                <img src="/wp-content/themes/think/images/social-media/TW.svg" alt="">
                             </a>
                         </li>
                         <li>
                             <a href="">
-                                <img src="wp-content/themes/think/images/social-media/BE.svg" alt="">
+                                <img src="/wp-content/themes/think/images/social-media/BE.svg" alt="">
                             </a>
                         </li>
                     </ul>
