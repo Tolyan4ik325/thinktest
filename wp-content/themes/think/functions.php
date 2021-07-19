@@ -344,6 +344,12 @@ function my_custom_submenu_page_callback() {
     echo '<div class="wrap">';
     echo '<h2>'. get_admin_page_title() .'</h2>';
     echo '</div>';
-    echo '<h2>Count External Posts: <span style="color: red">'.$count_posts.'</span>';
-
+    echo '<h2>Count External Posts: <span style="color: #ff0000">' .$count_posts.'</span>';
 }
+// Register Menu
+
+
+function wpb_custom_new_menu() {
+    register_nav_menu('my-custom-menu',__( 'Main Menu' ));
+}
+add_action( 'init', 'wpb_custom_new_menu' );

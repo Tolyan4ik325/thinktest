@@ -21,13 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c4dcbdbd-655a-42a3-a613-0d3bb15069d5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/homepage/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/homepage/banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/posts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/posts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/widgets/next-post-widget.php" beforeDir="false" afterPath="$PROJECT_DIR$/widgets/next-post-widget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +60,7 @@
       <updated>1626185672986</updated>
       <workItem from="1626185674110" duration="79020000" />
       <workItem from="1626428362785" duration="21945000" />
-      <workItem from="1626647170213" duration="11406000" />
+      <workItem from="1626647170213" duration="12544000" />
     </task>
     <servers />
   </component>
@@ -100,6 +96,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1626188470425" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1626659651060">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/-1920.-161.1920.1040@0.0.1366.728" timestamp="1626659651060" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1626656138415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

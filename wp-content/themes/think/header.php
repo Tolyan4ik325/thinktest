@@ -22,21 +22,16 @@
 
 </head>
 <body>
-<div id="menu-toggle" class="menu col-md-6 text-right" <?php if(is_admin_bar_showing()) ?> style="top: 62px" <?php ?>>
+<div id="menu-toggle" class="menu col-md-6 text-right" <?php if(is_admin_bar_showing()) { ?> style="top: 62px" <?php }  ?>>
 </div>
 <nav class="navbar">
     <div class="right-bar">
         <div class="menu">
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Sevrices</a></li>
-                <li><a href="">Work</a></li>
-                <li><a href="">Journal</a></li>
-                <li><a href="">Labs</a></li>
-                <li><a href="">Careers</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
+            <?php
+                wp_nav_menu( array(
+                    'theme_location' => 'my-custom-menu',
+                    'container_class' => 'custom-menu-class' ) );
+                ?>
         </div>
         <ul class="flex">
             <li>
