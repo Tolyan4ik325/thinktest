@@ -36,4 +36,4 @@ Login to installed WordPress website, using url __http(s)://yourdomain.com/wp-ad
 
 __Login:__ Admin
 
-__Password__: \*bf7fEbVMABDbrRt*R\
+__Password__: \*bf7fEbVMABDbrRt*R
