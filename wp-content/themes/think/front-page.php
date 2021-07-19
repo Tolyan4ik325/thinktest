@@ -131,7 +131,7 @@
         <div class="row projects">
             <?php
                 $projects = get_posts( array(
-                    'numberposts' => 4,
+                    'numberposts' => get_option('option_set_count')['projects'],
                     'post_type'   => 'projects',
                     'suppress_filters' => true,
                 ) );
@@ -185,7 +185,7 @@
         <div class="jouranls row mb-5">
             <?php
             $posts = get_posts( array(
-                'numberposts' => 3,
+                'numberposts' => get_option('option_set_count')['journals'],
                 'post_type'   => 'post',
                 'suppress_filters' => true,
             ) );
@@ -193,12 +193,15 @@
             setup_postdata($post);
             ?>
                 <div class="col-md-4">
+
                     <div class="item">
                         <div class="image-block" style="background-image: url('<?=get_the_post_thumbnail_url($post->ID);?>">
                         </div>
-                        <span class="date">02.08.2018</span>
-                        <h5><?=$post->post_title;?></h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                        <span class="date"><?= get_the_date('d.m.Y'); ?></span>
+                        <a href="/<?=$post->post_name;?>">
+                            <h5><?=$post->post_title;?></h5>
+                        </a>
+                        <p><?=$post->post_excerpt;?></p>
                     </div>
                 </div>
             <?php } ?>

@@ -247,3 +247,103 @@ add_action( 'widgets_init', 'wpb_load_widget' );
 
 require('widgets/next-post-widget.php');
 
+
+// Register Post Settings
+
+add_action('admin_menu', function(){
+    add_menu_page( 'Post Settings', 'Post Settings', 'manage_options', 'site-options', 'add_my_setting', '', 5 );
+} );
+
+
+// Register new option for Post Settings
+function add_my_setting(){
+    ?>
+    <div class="wrap">
+        <h2><?php echo get_admin_page_title() ?></h2>
+
+        <?php
+        // settings_errors() не срабатывает автоматом на страницах отличных от опций
+        if( get_current_screen()->parent_base !== 'options-general' )
+            settings_errors('post_settings');
+        ?>
+
+        <form action="options.php" method="POST">
+            <?php
+                settings_fields("option_group");     // скрытые защитные поля
+                do_settings_sections("page_settings"); // секции с настройками (опциями).
+                submit_button();
+            ?>
+        </form>
+    </div>
+    <?php
+
+}
+
+
+add_action('admin_init', 'post_settings');
+function post_settings(){
+    register_setting( 'option_group', 'option_set_count', 'sanitize_callback' );
+
+    add_settings_section( 'section_id', 'Post Settings', '', 'page_settings' );
+
+    // параметры: $id, $title, $callback, $page, $section, $args
+    add_settings_field('journal_count', 'Enter Journals(Posts) Count', 'journals_count', 'page_settings', 'section_id' );
+    add_settings_field('project_count', 'Enter Projects Count', 'projects_count', 'page_settings', 'section_id' );
+}
+
+## Journals count
+function journals_count(){
+    $val = get_option('option_set_count');
+    $val = $val ? $val['journals'] : 3;
+    if($val == NULL) {
+        $val = '3';
+    }
+
+    ?>
+    <input type="number" name="option_set_count[journals]" value="<?php echo esc_attr( $val ) ?>" />
+    <?php
+}
+
+## Projects count
+function projects_count(){
+    $val = get_option('option_set_count');
+    $val = $val ? $val['projects'] : 4;
+    if($val == NULL) {
+        $val = '4';
+    }
+    ?>
+    <label><input type="number" name="option_set_count[projects]" value="<?php echo esc_attr( $val ) ?>" />
+    <?php
+}
+
+
+
+
+// Add new sub-menu for Posts
+add_action('admin_menu', 'register_my_custom_submenu_page');
+
+function register_my_custom_submenu_page() {
+    add_submenu_page(
+        'edit.php',
+        'Count External Posts From API',
+        'Count External Posts',
+        'manage_options',
+        'my-custom-submenu-page',
+        'my_custom_submenu_page_callback'
+    );
+}
+
+function my_custom_submenu_page_callback() {
+    // Take data from API
+    $url = 'https://jsonplaceholder.typicode.com/posts';
+    $jsondata = file_get_contents($url);
+    $obj = json_decode($jsondata, true);
+    $count_posts = count($obj); // Total Count
+
+    // Page content
+    echo '<div class="wrap">';
+    echo '<h2>'. get_admin_page_title() .'</h2>';
+    echo '</div>';
+    echo '<h2>Count External Posts: <span style="color: red">'.$count_posts.'</span>';
+
+}

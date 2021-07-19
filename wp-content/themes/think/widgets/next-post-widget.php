@@ -38,7 +38,7 @@ class wpb_widget extends WP_Widget {
 
                 </div>
                 <div class="info">
-                    <span class="date">02.08.2018</span>
+                    <span class="date"><?= get_the_date('d.m.Y'); ?></span>
                     <a rel="next" href="/<?=$next_post->post_name;?>" title="<?=$next_post->post_title;?>" class=" ">
                         <h3><?=$next_post->post_title;?></h3>
                     </a>
@@ -53,7 +53,7 @@ class wpb_widget extends WP_Widget {
 
                 </div>
                 <div class="info">
-                    <span class="date">02.08.2018</span>
+                    <span class="date"><?= get_the_date('d.m.Y'); ?></span>
                     <a rel="next" href="/<?=$previous_post->post_name;?>" title="<?=$previous_post->post_title;?>" class=" ">
                         <h3><?=$previous_post->post_title;?></h3>
                     </a>
@@ -70,7 +70,7 @@ class wpb_widget extends WP_Widget {
 
 // Widget Backend
     public function form( $instance ) {
-      
+
 // Widget admin form
         ?>
         <p>

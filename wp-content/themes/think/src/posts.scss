@@ -68,6 +68,7 @@ main#posts p {
   font-size: 16px;
   letter-spacing: 0;
   line-height: 26px;
+  margin-bottom: 40px;
 }
 main#posts h5 {
   color: #22242C;
@@ -85,4 +86,7 @@ main#posts .sidebar .image-block{
   width: 100%;
   background-size: cover;
   background-position: 50%;
+}
+main#posts .sidebar a {
+  text-decoration: none;
 }

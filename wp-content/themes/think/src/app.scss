@@ -318,6 +318,13 @@ div.scroll-button.text-center a{
    background: linear-gradient(
                    180deg
            , rgba(245, 245, 245, 0.8) 0%, #F5F5F5 99.99%);
+   position: relative;
+}
+#journal:after {
+   content: url(/wp-content/themes/think/images/homepage/journal-shape.png);
+   position: absolute;
+   right: 0;
+   top: 10px;
 }
 
 
@@ -355,6 +362,9 @@ div.scroll-button.text-center a{
    letter-spacing: 0.6px;
    line-height: 33px;
    padding: 12px 24px;
+}
+#journal .item a {
+   text-decoration: none;
 }
 #journal .item p {
    color: #5C5E64;
@@ -523,6 +533,11 @@ footer #bottom-footer ul li a {
       bottom: 0;
       transform: scale(0.5);
    }
+   #journal:after {
+      right: -7px;
+      transform: scale(0.8);
+      top: -30px;
+   }
    footer #pre-footer h3 img, footer #pre-footer .h3 img {
       position: relative;
       right: 0;
@@ -569,6 +584,11 @@ footer #bottom-footer ul li a {
    h3 {
       font-size: 26px;
       line-height: 28px;
+   }
+   #journal:after {
+      right: -7px;
+      transform: scale(0.8);
+      top: -30px;
    }
    footer #pre-footer h3 img, footer #pre-footer .h3 img {
       position: relative;
