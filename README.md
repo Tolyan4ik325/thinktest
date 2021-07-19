@@ -4,7 +4,7 @@ This is a test web-site for Think Company.
 
 ## Installation
 
-Load __thinktest.sql__ to your database. Before loading slq file, change all domain links from __https://think.devovrutsky.pp.ua/__ to __http(s)://yourdomain.com__. All files into your folder and connect your database to this website in __wp-config__.php file
+Load __thinktest.sql__ to your database. Before loading slq file, change all domain links from __https://think.devovrutsky.pp.ua/__ to __http(s)://yourdomain.com__. All files into your folder and connect your database to this website in __wp-config.php__ file
 
 
 ## Usage
